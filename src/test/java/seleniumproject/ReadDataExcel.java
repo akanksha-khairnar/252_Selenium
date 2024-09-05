@@ -17,6 +17,7 @@ public class ReadDataExcel {
 		int cols=sheet.getRow(0).getLastCellNum();
 		System.out.println(cols);
 		
+		System.out.println("for loop started to execute.....");
 		for(int r=0;r<4;r++) {
 			for(int c=0;c<2;c++) {
 				XSSFRow row=sheet.getRow(r);
